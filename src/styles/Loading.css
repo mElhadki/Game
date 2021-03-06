@@ -1,0 +1,93 @@
+::selection {
+  background-color: transparent;
+}
+  
+  h1 {
+    font-size: 80px;
+  }
+  
+  /* h2 {
+    font-size: 36px;
+    opacity: 0;
+    animation: appear 1s 3s forwards;
+  } */
+  
+  .container2{
+    margin:4em;
+    text-align: center;
+  }
+  
+  .loader {
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 16px solid #bdc3c7;
+    width: 120px;
+    height: 120px;
+    border-top-color: #5995fd;
+    border-bottom-color: #5995fd;
+    border-radius: 50%;
+    animation: coloredspin 4s linear infinite;
+  }
+  .prod-head2{
+    cursor: url("https://res.cloudinary.com/dzjzhwh7o/image/upload/v1614889148/copy_1_vhrotn.png"), auto;
+        margin-left: 90px !important;
+    text-align: left;
+    width: 70%;
+    font-weight: 200;
+    font-size: 30px;
+    color: #6f7576;
+    margin: 0;
+    text-align: center;
+    background: #5995fd85;
+    border: none;
+    /* border-left: 18px solid #5995fd; */
+    text-align: inherit;
+  }
+
+  .icon{
+    color: #346bcc;
+    margin-left: -50px;
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+  
+}
+  .prod-head-sub2{
+
+    font-weight:400;
+	font-size:25pt;
+	color:#6f7576;
+	margin:0 auto;
+    text-align: center;
+}
+.prod-head2 span{
+    color:#5995fd
+}
+  
+  @keyframes spin {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes coloredspin {
+
+    100%{
+      transform: rotate(720deg) scale(1);
+      border-top-color: #5995fd;
+      border-bottom-color: #5995fd;
+    }
+  }
+  
+  @keyframes appear {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
